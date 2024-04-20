@@ -1,0 +1,11 @@
+body {
+    /* Hide horizontal scrollbar */
+
+    white-space: initial;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+  }
+  *{
+    box-sizing: border-box;
+  }

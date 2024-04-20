@@ -1,0 +1,388 @@
+.section1_bg {
+  position: relative;
+  width: 100%;
+  background-image: url("../../photo/WhatsApp\ Image\ 2024-02-03\ at\ 14.19.29_585ad7a8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 50;
+  height: 850px;
+}
+/* .bg-flip {
+  transform: rotateY(180deg);
+} */
+.photo {
+  position: relative;
+  z-index: 1;
+}
+.text_div {
+  width: 100%;
+  background-color: black;
+  position: relative;
+  white-space: initial;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.text1_div {
+  position: absolute;
+  top: 130px;
+  right: 20px;
+  color: #024f00;
+  background-image: -webkit-linear-gradient(90deg, #ef000080 0%, #a82b2b 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:1200px) {
+  .text1_div { 
+    top: 100px;
+  }
+  .text1_div h3 {
+    font-size: 3.5rem !important;
+  }
+}
+.text2-content {
+  /* margin-left: 50px; */
+}
+.text2_div {
+  position: absolute;
+  top: 200px;
+}
+.section2_bg {
+  position: relative;
+  z-index: 1;
+  margin-top: -5px;
+  background-color: #ffffff;
+  background-image: url("../../photo/bg-2.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.underline_div {
+  width: 300px;
+  height: 1px;
+  background-color: #d14a49;
+}
+
+.bggg {
+  background-color: #1c1c1c;
+  background-image: url("../../photo/Ellipse3.png");
+}
+.plan_div {
+  width: 400px;
+}
+
+.section3_bg {
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: space;
+  background-position: center center;
+  background-image: url("../../photo/sec3_bg.png");
+
+  width: 100%;
+}
+.checken_bg {
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: space;
+  background-position: center center;
+  background-image: url("../../photo/checken_bg.png");
+}
+.speics_bg {
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: space;
+  background-position: center center;
+  background-image: url("../../photo/speics_bg.png");
+}
+.photo_size {
+  width: 190px;
+  height: 190px;
+}
+
+.underline_div3 {
+  width: 105px;
+  height: 3px;
+  background-color: #fafafa;
+}
+
+.underline h5 {
+  display: inline-block;
+  position: relative;
+}
+
+.underline h5:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #71e96f;
+  position: absolute;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translate(-50%);
+}
+.underline h2 {
+  display: inline-block;
+  position: relative;
+}
+
+.underline h2:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #d14a49;
+  position: absolute;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translate(-50%);
+}
+.input_div {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    126deg,
+    rgba(255, 255, 255, 0.6979166666666667) -1%,
+    rgba(9, 9, 121, 0) 70%
+  );
+  height: 500px;
+}
+
+.footerlast {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+}
+.sec3-line {
+  background-color: #a82b2b;
+  position: relative;
+
+  height: 3px;
+}
+.sec3-line::after {
+  background-color: #a82b2b;
+  content: " ";
+  position: absolute;
+  height: 20px;
+  width: 20%;
+  top: -9px;
+  left: 40%;
+  border-radius: 50px;
+}
+/* .sec3-overline{
+    position: absolute;
+    background-color: #A82B2B;
+    width:40% ;
+    height: 15px;
+
+} */
+.sec3-text-underline h2 {
+  display: inline-block;
+  position: relative;
+}
+.sec3-text-underline h2::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translate(-50%);
+}
+.section5_bg {
+  background-color: #fffdfd;
+  background-image: url("../../photo/Rectangle_21.png");
+  height: 750px;
+}
+@media screen and (min-width: 992px) and (max-width: 2000px) {
+  .special {
+    padding-top: 40px;
+    padding-inline-start: 40px;
+
+  }
+  .footer_wave {
+    /* transform: rotateY(180deg); */
+    width: 100%;
+    background-image: url("../../photo/footer.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding-top: 30px; */
+    position: relative;
+    padding-bottom: 40px;
+  }
+
+  .section4_bg {
+    background-color: #ffffff;
+    background-image: url("../../photo/Group_7.png");
+    height: 750px;
+  }
+  .section4_div {
+    background: #1c1c1cc0;
+    background-image: url("../../photo/Rectangle_20.png");
+    height: 450px;
+  }
+  .Square_photo1 {
+    position: absolute;
+    top: -25%;
+    left: 30%;
+    width: 400px;
+    height: 250px;
+    z-index: 1;
+  }
+  .Square_photo2 {
+    position: absolute;
+    top: 12%;
+    left: 6%;
+    width: 350px;
+    height: 250px;
+    z-index: 2;
+  }
+  .Square_photo3 {
+    position: absolute;
+    bottom: -2%;
+    left: 40%;
+    width: 350px;
+    height: 250px;
+    z-index: 3;
+  }
+  .sec2_photos {
+    padding-top: 55px;
+  }
+  .sec2_text1 {
+    margin-bottom: 48px;
+    color: #bd0000;
+    font-size: 2.5rem;
+  }
+  .linsec3 {
+    width: 1px;
+    background-color: white;
+    height: 400px;
+  }
+  .circles_div {
+    background-color: red;
+    margin-left: 0px;
+  }
+  .circle_photo1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 5%;
+    width: 250px;
+    height: 250px;
+    z-index: 2;
+  }
+  .circle_photo2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+  }
+  .circle_photo3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    z-index: 3;
+    width: 270px;
+    height: 270px;
+    z-index: 1;
+  }
+}
+.ms-5-media {
+  margin-left: 90px;
+}
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  .ms-5-media {
+    margin-left: 0px;
+  }
+  .special {
+    padding-top: 40px;
+    padding-inline-start: 40px;
+  }
+  .footer_wave {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      135deg,
+      rgba(30, 42, 28, 1) 0%,
+      rgba(50, 153, 48, 1) 80%
+    );
+
+    height: auto;
+    padding-top: 0px;
+
+    padding-bottom: 40px;
+  }
+
+  .section4_bg {
+    background-color: #ffffff;
+    background-image: url("../../photo/Group_7.png");
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .section4_div {
+    background: #1c1c1cc0;
+    background-image: url("../../photo/Rectangle_20.png");
+
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .Square_photo1 {
+    margin-top: 48px;
+    width: 400px;
+    margin-right: 10px;
+  }
+  .Square_photo2 {
+    margin-top: 48px;
+    width: 400px;
+    margin-right: 10px;
+  }
+  .Square_photo3 {
+    margin-top: 48px;
+    width: 400px;
+    margin-right: 10px;
+  }
+  .sec2_photos {
+  }
+  .sec2_text1 {
+    margin-bottom: 10px;
+    color: #71e96f;
+  }
+  .linsec3 {
+  }
+  .circles_div {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-top: 0px;
+    display: flex;
+  }
+  .circle_photo1 {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 400px;
+  }
+  .circle_photo2 {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 400px;
+  }
+  .circle_photo3 {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 400px;
+  }
+}
+
+.left_to_right {
+  direction: ltr;
+}
+.right-to-left {
+  direction: rtl;
+}

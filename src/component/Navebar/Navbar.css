@@ -1,0 +1,24 @@
+.navbar_bg{
+    background-color:  #717171CC; 
+    position: relative;
+    z-index:100;
+}
+.text_white{
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+   .displaynone{
+    display: none;
+   }
+   
+  }
+  @media screen and (min-width: 992px) {
+    .navbar2_bg{
+        background-color:  #A82B2B; 
+        position: relative;
+        z-index:100;
+        
+        width: 100%;
+    }
+  }
